@@ -1,13 +1,11 @@
-import { useState } from 'react'
+import AppRoutes from './routes/AppRoutes'
 import './styles/global.css'
 
-function App() {
-  const [count, setCount] = useState(0)
 
+function App() {
   return (
     <>
-      <h1>MultiStock</h1>
-      <p>Gestão de estoque e vendas</p>
+      <AppRoutes/>
     </>
   )
 }
